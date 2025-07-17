@@ -1,0 +1,11 @@
+{
+  "format_on_save": false,
+  "use_goimports": true,
+  "show_panel_on_build": true,
+  "go_executable": "go",
+  "gofmt_executable": "gofmt",
+  "goimports_executable": "goimports",
+  "auto_create_mod": true,
+  "default_module_name": "",
+  "prompt_for_module_creation": true
+}

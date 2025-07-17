@@ -1,0 +1,60 @@
+{
+  "shell_cmd": "go run \"$file_name\"",
+  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+  "working_dir": "$file_path",
+  "selector": "source.go",
+  "variants": [
+    {
+      "name": "Build (Single File)",
+      "shell_cmd": "go build \"$file_name\""
+    },
+    {
+      "name": "Build (Package)",
+      "shell_cmd": "go build .",
+      "working_dir": "${project_path:${folder}}"
+    },
+    {
+      "name": "Run (Package)",
+      "shell_cmd": "go run .",
+      "working_dir": "${project_path:${folder}}"
+    },
+    {
+      "name": "Test",
+      "shell_cmd": "go test -v .",
+      "working_dir": "${project_path:${folder}}"
+    },
+    {
+      "name": "Test All",
+      "shell_cmd": "go test -v ./...",
+      "working_dir": "${project_path:${folder}}"
+    },
+    {
+      "name": "Benchmark",
+      "shell_cmd": "go test -bench=. -benchmem .",
+      "working_dir": "${project_path:${folder}}"
+    },
+    {
+      "name": "Install",
+      "shell_cmd": "go install .",
+      "working_dir": "${project_path:${folder}}"
+    },
+    {
+      "name": "Vet (Single File)",
+      "shell_cmd": "go vet \"$file_name\""
+    },
+    {
+      "name": "Vet (Package)",
+      "shell_cmd": "go vet .",
+      "working_dir": "${project_path:${folder}}"
+    },
+    {
+      "name": "Clean",
+      "shell_cmd": "go clean -cache"
+    },
+    {
+      "name": "Mod Tidy",
+      "shell_cmd": "go mod tidy",
+      "working_dir": "${project_path:${folder}}"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  { "keys": ["ctrl+shift+g", "ctrl+b"], "command": "go_build" },
+  { "keys": ["ctrl+shift+g", "ctrl+r"], "command": "go_run" },
+  { "keys": ["ctrl+shift+g", "ctrl+t"], "command": "go_test" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+t"], "command": "go_test_all" },
+  { "keys": ["ctrl+shift+g", "ctrl+f"], "command": "go_test_function" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+b"], "command": "go_benchmark" },
+  { "keys": ["ctrl+shift+g", "ctrl+v"], "command": "go_vet" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+f"], "command": "go_fmt" },
+  { "keys": ["ctrl+shift+g", "ctrl+i"], "command": "go_imports" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+m"], "command": "go_mod_init" },
+  { "keys": ["ctrl+shift+g", "ctrl+m"], "command": "go_mod_tidy" },
+  { "keys": ["ctrl+shift+g", "ctrl+g"], "command": "go_get" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+i"], "command": "go_install" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+c"], "command": "go_clean" },
+  { "keys": ["ctrl+shift+g", "ctrl+c"], "command": "go_coverage" },
+  { "keys": ["ctrl+shift+g", "ctrl+d"], "command": "go_doc" },
+  { "keys": ["ctrl+shift+g", "ctrl+p"], "command": "go_playground" },
+  { "keys": ["ctrl+shift+g", "ctrl+e"], "command": "go_environment" },
+  { "keys": ["ctrl+shift+g", "ctrl+shift+v"], "command": "go_version" },
+  { "keys": ["ctrl+shift+g", "ctrl+w"], "command": "go_workspace" }
+]

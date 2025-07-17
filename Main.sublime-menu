@@ -1,0 +1,38 @@
+[
+  {
+    "caption": "Tools",
+    "mnemonic": "T",
+    "id": "tools",
+    "children": [
+      {
+        "caption": "Go",
+        "id": "go",
+        "children": [
+          { "caption": "Build Package", "command": "go_build" },
+          { "caption": "Run", "command": "go_run" },
+          { "caption": "-" },
+          { "caption": "Test Package", "command": "go_test" },
+          { "caption": "Test All", "command": "go_test_all" },
+          { "caption": "Test Function", "command": "go_test_function" },
+          { "caption": "Benchmark", "command": "go_benchmark" },
+          { "caption": "-" },
+          { "caption": "Format File", "command": "go_fmt" },
+          { "caption": "Fix Imports", "command": "go_imports" },
+          { "caption": "Vet", "command": "go_vet" },
+          { "caption": "-" },
+          { "caption": "Coverage", "command": "go_coverage" },
+          { "caption": "Documentation", "command": "go_doc" },
+          { "caption": "Send to Playground", "command": "go_playground" },
+          { "caption": "-" },
+          { "caption": "Go Get Package", "command": "go_get" },
+          { "caption": "Mod Tidy", "command": "go_mod_tidy" },
+          { "caption": "Install", "command": "go_install" },
+          { "caption": "Clean", "command": "go_clean" },
+          { "caption": "-" },
+          { "caption": "Show Environment", "command": "go_environment" },
+          { "caption": "Show Version", "command": "go_version" }
+        ]
+      }
+    ]
+  }
+]

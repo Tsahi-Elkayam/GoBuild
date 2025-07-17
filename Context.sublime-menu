@@ -1,0 +1,13 @@
+[
+  {
+    "caption": "Go",
+    "id": "go",
+    "children": [
+      { "caption": "Run", "command": "go_run" },
+      { "caption": "Test Function", "command": "go_test_function" },
+      { "caption": "Format", "command": "go_fmt" },
+      { "caption": "Fix Imports", "command": "go_imports" },
+      { "caption": "Documentation", "command": "go_doc" }
+    ]
+  }
+]
